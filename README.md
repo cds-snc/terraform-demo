@@ -2,7 +2,7 @@
   <h1 align="center">💻 Terraform Demo</h1>
   <p align="center">
   &middot;
-    <a href=""><strong>Resources</strong></a>
+    <a href=""><strong>Resources and Accessibility</strong></a>
   &middot;
     <a href=""><strong>Demo Info</strong></a>
   &middot;
