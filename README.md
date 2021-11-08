@@ -10,8 +10,8 @@
 </p>
 
 # Resources and Accessibility
-> We are committed to providing learning resources that are accessible to all. If you see a resource that is not compliant, please let us know @ .
->
+> We are committed to providing learning resources that are accessible to all. If you see a resource that is not compliant, please let us know mailto:ashar.ahmed@cds-snc.ca.
+
 <a href="https://docs.google.com/presentation/d/1fAJBXQuxhNtrjaaIYOSN2YDJl92bhPgyf4VKySnzDIk/edit#slide=id.gfa3975480b_0_3">Slides</a>
 
 # Terraform Boilerplate 
