@@ -31,11 +31,9 @@
 
 ## ✔️ How to set it up 🦾
 
-After you have a scratch AWS account setup, the first step to getting started with Terraform is to use the AWS module within Terraform to create an S3 bucket.
+After you have a scratch AWS account setup and connected with AWS CLI, the first step to getting started with Terraform is to use the AWS module to create an S3 bucket.
 
 Once this bucket is created, we can create a DynamoDB table and use this DynamoDB table instance to 'lock state' to prevent state corruption.
-
-Continue...
 
 
 ## 🤖 Integrating Terragrunt and future 🔮
