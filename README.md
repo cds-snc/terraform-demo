@@ -4,7 +4,7 @@
   &middot;
     <a href="https://github.com/cds-snc/terraform-demo"><strong>Resources and Accessibility</strong></a>
   &middot;
-    <a href="https://github.com/cds-snc/terraform-demo"><strong>Terraform Boilerplate</strong></a>
+    <a href="https://github.com/cds-snc/terraform-demo/tree/main/src"><strong>Terraform Boilerplate</strong></a>
   &middot;
   </p>
 </p>
