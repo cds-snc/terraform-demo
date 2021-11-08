@@ -9,7 +9,7 @@
   </p>
 </p>
 
-# Resources
+# Resources and Accessibility
 
 <a href="https://docs.google.com/presentation/d/1fAJBXQuxhNtrjaaIYOSN2YDJl92bhPgyf4VKySnzDIk/edit#slide=id.gfa3975480b_0_3">Slides</a>
 
