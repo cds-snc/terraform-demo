@@ -43,4 +43,4 @@ Continue...
 
 <a href="https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/">Terragrunt Docs</a>
 
-We can use a 'partial configuration' instead of specifying the same configuration over and over again in Terraform flles, which lets us adhere to a principle of DRY -- **"Don't Repeat Yourself"**.
+We use a 'partial configuration' instead of specifying the same configuration over and over again in Terraform files, which lets us 'keep things DRY' -- **"Don't Repeat Yourself"**.
