@@ -2,9 +2,9 @@
   <h1 align="center">💻 Terraform Demo</h1>
   <p align="center">
   &middot;
-    <a href=""><strong>Resources and Accessibility</strong></a>
+    <a href="https://github.com/cds-snc/terraform-demo"><strong>Resources and Accessibility</strong></a>
   &middot;
-    <a href=""><strong>Terraform Boilerplate</strong></a>
+    <a href="https://github.com/cds-snc/terraform-demo"><strong>Terraform Boilerplate</strong></a>
   &middot;
   </p>
 </p>
