@@ -9,7 +9,7 @@
   </p>
 </p>
 
-# Resources and Accessibility
+# 📖 Resources and Accessibility ♿
 > We are committed to providing learning resources that are accessible to all. If you see a resource that is not compliant, please let us know at ashar.ahmed@cds-snc.ca.
 
 <a href="https://docs.google.com/presentation/d/1fAJBXQuxhNtrjaaIYOSN2YDJl92bhPgyf4VKySnzDIk/edit#slide=id.gfa3975480b_0_3">Slides</a>
@@ -18,9 +18,9 @@
 
 <a href="https://learn.acloud.guru/">A Cloud Guru</a>
 
-# Terraform Boilerplate 
+# 🏖️ Terraform Boilerplate 🗄️
 
-## Tools Needed
+## 🧰 Tools Needed
 
 - A scratch AWS account 
 - AWS CLI (install using <a href="https://formulae.brew.sh/formula/awscli">Homebrew on macOS</a>)
@@ -29,7 +29,7 @@
 
 
 
-## How to set it up
+## ✔️ How to set it up 🦾
 
 After you have a scratch AWS account setup, the first step to getting started with Terraform is to use the AWS module within Terraform to create an S3 bucket.
 
@@ -38,8 +38,7 @@ Once this bucket is created, we can create a DynamoDB table and use this DynamoD
 Continue...
 
 
-
-## Integrating Terragrunt and future
+## 🤖 Integrating Terragrunt and future 🔮
 
 <a href="https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/">Terragrunt Docs</a>
 
