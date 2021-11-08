@@ -20,7 +20,7 @@
 
 # 🏖️ Terraform Boilerplate 🗄️
 
-## 🧰 Tools Needed
+## 🧰 Tools Needed 🛠️
 
 - A scratch AWS account 
 - AWS CLI (install using <a href="https://formulae.brew.sh/formula/awscli">Homebrew on macOS</a>)
