@@ -15,9 +15,9 @@
 
 # Terraform Boilerplate 
 
-## Tools Needed:
+## Tools Needed
 
-## How to set it up:
+## How to set it up
 
 ## Integrating Terragrunt and future
 
