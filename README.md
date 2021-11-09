@@ -40,4 +40,4 @@ Once this bucket is created, we can create a DynamoDB table and use this DynamoD
 
 <a href="https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/">Terragrunt Docs</a>
 
-We use a 'partial configuration' instead of specifying the same configuration over and over again in Terraform files, which lets us 'keep things DRY' -- **"Don't Repeat Yourself"**.
+We use a 'partial configuration' instead of specifying the same configuration over and over again in Terraform files, which lets us 'keep things DRY' -- aka **"Don't Repeat Yourself"**.
