@@ -20,6 +20,8 @@
 
 <a href="https://www.hashicorp.com/partners/tech/new-relic">New Relic</a>
 
+<a href="https://github.com/cds-snc/terraform-modules">CDS Terraform Modules</a>
+
 # 🏖️ Terraform Boilerplate 🗄️
 
 ## 🧰 Tools Needed 🛠️
