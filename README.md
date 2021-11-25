@@ -22,6 +22,8 @@
 
 <a href="https://github.com/cds-snc/terraform-modules">CDS Terraform Modules</a>
 
+<a href="https://github.com/cds-snc/terraform-plan">CDS's Terraform Plan module</a>
+
 # 🏖️ Terraform Boilerplate 🗄️
 
 ## 🧰 Tools Needed 🛠️
