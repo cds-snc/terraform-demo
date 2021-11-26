@@ -7,4 +7,9 @@ resource "aws_dynamodb_table" "tfstate_lock" {
     name = "LockID"
     type = "S"
   }
+
+  tags = {
+    "CostCentre" = "cds-terraform-demo"
+    "Terraform"  = true
+  }
 }
