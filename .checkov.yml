@@ -1,0 +1,7 @@
+skip-check:
+  - CKV_AWS_119 # DynamoDB encryption with default service key is acceptable
+  - CKV_AWS_28  # DynamoDB point in time recovery not required for lock table
+  - CKV2_AWS_16 # DynamoDB auto-scaling not required for lock table
+  - CKV_AWS_18  # S3 bucket access logging not required for demo
+  - CKV_AWS_144 # S3 bucket cross-region replication not required for demo
+  - CKV_AWS_145 # S3 bucket encryption with default service key is acceptable

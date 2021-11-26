@@ -5,4 +5,4 @@ fmt:
 	terragrunt hclfmt
 
 checkov:
-	checkov --directory=aws
+	checkov --directory=.
