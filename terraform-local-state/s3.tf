@@ -12,6 +12,11 @@ resource "aws_s3_bucket" "the_bucket" {
       }
     }
   }
+
+  tags = {
+    "CostCentre" = "cds-terraform-demo"
+    "Terraform"  = true
+  }
 }
 
 resource "aws_s3_bucket_public_access_block" "the_bucket" {
