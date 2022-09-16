@@ -1,49 +1,32 @@
-<p align="center">
-  <h1 align="center">💻 Terraform Demo</h1>
-  <p align="center">
-  &middot;
-    <a href="https://github.com/cds-snc/terraform-demo"><strong>Resources and Accessibility</strong></a>
-  &middot;
-    <a href="https://github.com/cds-snc/terraform-demo/tree/main/src"><strong>Terraform Boilerplate</strong></a>
-  &middot;
-  </p>
-</p>
+# 💻 Terraform Demo</h1>
 
-# 📖 Resources and Accessibility ♿
-> We are committed to providing learning resources that are accessible to all. If you see a resource that is not compliant, please let us know at ashar.ahmed@cds-snc.ca.
+## 📖 Resources and Accessibility ♿
+> We are committed to providing learning resources that are accessible to all. If you see a resource that is not compliant, please let us know by [creating an issue](https://github.com/cds-snc/terraform-demo/issues).
 
-<a href="https://docs.google.com/presentation/d/1fAJBXQuxhNtrjaaIYOSN2YDJl92bhPgyf4VKySnzDIk/edit#slide=id.gfa3975480b_0_3">Slides</a>
+- [Slides](https://docs.google.com/presentation/d/1fAJBXQuxhNtrjaaIYOSN2YDJl92bhPgyf4VKySnzDIk/edit#slide=id.gfa3975480b_0_3)
+- [HashiCorp Learn](https://learn.hashicorp.com/tutorials/terraform/)
+- [A Cloud Guru](https://learn.acloud.guru/)
+- [New Relic](https://www.hashicorp.com/partners/tech/new-relic)
+- [CDS Terraform Modules](https://github.com/cds-snc/terraform-modules)
+- [CDS's Terraform Plan module](https://github.com/cds-snc/terraform-plan)
 
-<a href="https://learn.hashicorp.com/tutorials/terraform/">HashiCorp Learn</a>
+## 🏖️ Terraform Boilerplate 🗄️
 
-<a href="https://learn.acloud.guru/">A Cloud Guru</a>
+### 🧰 Tools Needed 🛠️
 
-<a href="https://www.hashicorp.com/partners/tech/new-relic">New Relic</a>
+- As AWS account 
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
-<a href="https://github.com/cds-snc/terraform-modules">CDS Terraform Modules</a>
-
-<a href="https://github.com/cds-snc/terraform-plan">CDS's Terraform Plan module</a>
-
-# 🏖️ Terraform Boilerplate 🗄️
-
-## 🧰 Tools Needed 🛠️
-
-- A scratch AWS account 
-- AWS CLI (install using <a href="https://formulae.brew.sh/formula/awscli">Homebrew on macOS</a>)
-- Terraform (install using <a href="https://learn.hashicorp.com/tutorials/terraform/install-cli">Brew Cask</a>)
-- <a href="https://registry.terraform.io/modules/terraform-aws-modules/s3-bucket/aws/latest">s3-bucket</a> Terraform module
-
-
-
-## ✔️ How to set it up 🦾
+### ✔️ How to set it up 🦾
 
 After you have a scratch AWS account setup and connected with AWS CLI, the first step to getting started with Terraform is to use the AWS module to create an S3 bucket.
 
 Once this bucket is created, we can create a DynamoDB table and use this DynamoDB table instance to 'lock state' to prevent state corruption.
 
 
-## 🤖 Integrating Terragrunt and future 🔮
+### 🤖 Integrating Terragrunt and future 🔮
 
-<a href="https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/">Terragrunt Docs</a>
+[Terragrunt Docs](https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/)
 
 We will use a 'partial configuration' instead of specifying the same configuration over and over again in Terraform files, which lets us 'keep things DRY' -- **"Don't Repeat Yourself"**.
