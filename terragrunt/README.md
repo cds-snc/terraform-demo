@@ -15,3 +15,5 @@ terragrunt init
 terragrunt plan
 terragrunt apply
 ```
+
+if you then wanted to simulate the production environment, it would be the same commands as above, but you’d start in `terragrunt/env/production` and run the same commands
