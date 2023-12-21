@@ -19,3 +19,5 @@ terragrunt apply
 ```
 
 If you then want to simulate the production environment, it would be the same commands as above, but you start in `terragrunt/env/production` and run the same commands.
+
+For more information: https://github.com/cds-snc/terraform-demo/tree/main 
