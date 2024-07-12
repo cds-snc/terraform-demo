@@ -4,7 +4,7 @@
 > We are committed to providing learning resources that are accessible to all. If you see a resource that is not compliant, please let us know by [creating an issue](https://github.com/cds-snc/terraform-demo/issues).
 
 - [Slides](https://docs.google.com/presentation/d/1fAJBXQuxhNtrjaaIYOSN2YDJl92bhPgyf4VKySnzDIk/edit#slide=id.gfa3975480b_0_3)
-- [HashiCorp Learn](https://learn.hashicorp.com/tutorials/terraform/)
+- [HashiCorp Developer](https://developer.hashicorp.com/terraform/tutorials)
 - [A Cloud Guru](https://learn.acloud.guru/)
 - [New Relic](https://www.hashicorp.com/partners/tech/new-relic)
 - [CDS Terraform Modules](https://github.com/cds-snc/terraform-modules)
@@ -14,9 +14,9 @@
 
 ### 🧰 Tools Needed 🛠️
 
-- As AWS account 
+- An AWS account 
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-- [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+- [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli#install-terraform)
 
 ### ✔️ How to set it up 🦾
 
