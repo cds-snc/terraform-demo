@@ -43,4 +43,60 @@ A DevContainer allows you to standardize your development environment using Coli
 
 This setup ensures consistency across development environments and simplifies onboarding for new contributors.
 
-Enjoy
+# ✅ SSH Commit Signing Setup (macOS + GitHub)
+
+This guide sets up **SSH key-based Git commit signing** (not just repository authentication) using Git and GitHub.
+
+---
+
+## 1. Generate an SSH Key (if needed)
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+This creates:
+
+    ~/.ssh/id_ed25519 (private key)
+
+    ~/.ssh/id_ed25519.pub (public key)
+
+
+## 2. Configure Git to Sign Commits with SSH
+
+```bash
+git config --global gpg.format ssh
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
+git config --global commit.gpgsign true
+```
+
+## 3. Use a Verified GitHub Email
+
+Check your Git email:
+
+`git config --global user.email`
+
+Make sure that email is added and verified in GitHub.
+
+##  4. Upload Your SSH Signing Key to GitHub
+
+```bash 
+cat ~/.ssh/id_ed25519.pub`
+```
+
+Go to: GitHub → Settings → SSH and GPG Keys
+
+Click "New SSH Key"
+
+Select "Signing key" as the key type
+
+Paste your key and save
+
+## 5. Make a Signed Commit
+
+```bash
+git commit -S -m "Your signed commit message"
+git push
+```
+
+You should now see ✅ Verified next to your commits on GitHub.
