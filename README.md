@@ -30,3 +30,15 @@ Once this bucket is created, we can create a DynamoDB table and use this DynamoD
 [Terragrunt Docs](https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/)
 
 We will use a 'partial configuration' instead of specifying the same configuration over and over again in Terraform files, which lets us 'keep things DRY' -- **"Don't Repeat Yourself"**.
+
+### 🐳 Using a DevContainer 🛠️
+
+A DevContainer allows you to standardize your development environment using Colima. To use the provided DevContainer:
+
+1. Ensure you have [Colima](https://github.com/abiosoft/colima) installed on your machine.
+2. Install [Visual Studio Code](https://code.visualstudio.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+3. Open this project in VS Code.
+4. When prompted, reopen the project in the DevContainer. Alternatively, press `F1`, search for "Dev Containers: Reopen in Container," and select it.
+5. Once the container is built and running, you can start working with all the required tools pre-installed.
+
+This setup ensures consistency across development environments and simplifies onboarding for new contributors.
