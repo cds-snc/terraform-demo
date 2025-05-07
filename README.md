@@ -42,3 +42,5 @@ A DevContainer allows you to standardize your development environment using Coli
 5. Once the container is built and running, you can start working with all the required tools pre-installed.
 
 This setup ensures consistency across development environments and simplifies onboarding for new contributors.
+
+Enjoy
